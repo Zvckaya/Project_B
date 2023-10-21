@@ -12,6 +12,7 @@ import {
   Form,
 } from "../components/auth-components";
 import GithubButton from "../components/github-btn";
+import GoogleButton from "../components/google-btn";
 
 export default function CreateAccount() {
   const navigate = useNavigate();
@@ -75,6 +76,7 @@ export default function CreateAccount() {
         아이디가 없으세요? <Link to="/create-account">회원가입</Link>
       </Switcher>
       <GithubButton></GithubButton>
+      <GoogleButton></GoogleButton>
     </Wrapper>
   );
 }
